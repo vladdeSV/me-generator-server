@@ -1,0 +1,12 @@
+{
+  "name": "me-generator-server",
+  "version": "1.0.0",
+  "main": "out/index.js",
+  "repository": "git@github.com:vladdeSV/me-generator-server.git",
+  "author": "Vladimirs Nordholm <v@vladde.net>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^15.0.1",
+    "typescript": "^4.2.4"
+  }
+}

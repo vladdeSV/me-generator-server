@@ -1,0 +1,6 @@
+[submodule "me-generator"]
+	path = me-generator
+	url = https://github.com/vladdeSV/me-generator
+[submodule "me-generator-images"]
+	path = me-generator-images
+	url = https://github.com/vladdeSV/me-generator-images

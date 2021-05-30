@@ -12,7 +12,7 @@ import express from 'express'
 
     app.get(
         '/',
-        (req, res) => {
+        async (req, res) => {
 
             const verifySeed = (seed: unknown): string | undefined => {
 
@@ -54,7 +54,7 @@ import express from 'express'
                 parts: generate(rulebook, seed),
             }
 
-            const data = generateSvg(documentConfiguration)
+            const data = await generateSvg(documentConfiguration, rulebook.indexes)
 
             res.header({
                 'Content-Type': 'image/svg+xml',
